@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #001f3f, #0074D9);
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #001f3f;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+.container {
+    background-image: url('./imagens/./R.jpeg'); /* Coloque o caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    height: 500px; /* Defina a altura do nav */
+    display: flex;
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+h2 {
+    border-bottom: 2px solid #FFDC00;
+}
+
+#elenco {
+    padding: 2rem;
+    background-color: #001f3f;
+}
+
+.cast-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.cast-member {
+    width: 150px;
+    text-align: center;
+    padding: 24px;
+}
+
+.cast-member img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+section {
+    padding: 40px;
+}
+
+#faq {
+    padding: 2rem;
+    background-color: #001f3f;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-answer {
+    padding: 1rem;
+    display: none;
+    background: #333;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
